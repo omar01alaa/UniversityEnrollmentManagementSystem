@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Course</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>University Enrollment System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="enroll.html">Enroll in Course</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <h2>Add New Course</h2>
+        <form id="addCourseForm" method="POST" action="add_course.php">
+            <label for="course_name">Course Name:</label>
+            <input type="text" id="course_name" name="course_name" required>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            <label for="capacity">Capacity:</label>
+            <input type="number" id="capacity" name="capacity" required>
+            <button type="submit">Add Course</button>
+        </form>
+        <div id="message"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 University Enrollment System</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
