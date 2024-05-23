@@ -13,8 +13,8 @@ Implement Business Rules: Use triggers to enforce business logic and constraints
 Technologies Used:
 
 ## Database Management System: MySQL
-Programming Languages: SQL, PL/pgSQL
-Tools: MySQL Workbench, pgAdmin
+#### Programming Languages: SQL, PL/SQL
+#### Tools: MySQL Workbench, pgAdmin
 ## Use Case:
 * The student has enroll for the course and the prerequisite for this course have not yet been enrolled by the student
 * The student has enroll for course. There are no longer places available in this course
